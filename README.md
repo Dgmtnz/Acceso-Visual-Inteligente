@@ -24,7 +24,7 @@ El script principal del proyecto es `AVI.py`. Al ejecutarlo, se inicializa la c�
 
 Si presionas la tecla Enter, el marco actual se guarda como ‘foto.jpg’, se codifica en base64 y se envía a la API de Replicate utilizando el modelo Llama 3 Vision. La API devuelve una descripción de la imagen, que se imprime en la consola y se lee en voz alta.
 
-Para salir del programa, presiona la tecla ‘q’.
+Para salir del programa, presiona la tecla ‘q’. //no va
 
 ## Licencia
 
