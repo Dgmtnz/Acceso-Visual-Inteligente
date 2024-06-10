@@ -20,7 +20,7 @@ os.environ["REPLICATE_API_TOKEN"] = "tu_token_aquí"
 
 ## Uso
 
-El script principal del proyecto es `main.py`. Al ejecutarlo, se inicializa la cámara y el motor de text-to-speech. Luego, entra en un bucle infinito donde captura un marco de la cámara y lo muestra en una ventana.
+El script principal del proyecto es `AVI.py`. Al ejecutarlo, se inicializa la cámara y el motor de text-to-speech. Luego, entra en un bucle infinito donde captura un marco de la cámara y lo muestra en una ventana.
 
 Si presionas la tecla Enter, el marco actual se guarda como ‘foto.jpg’, se codifica en base64 y se envía a la API de Replicate utilizando el modelo Llama 3 Vision. La API devuelve una descripción de la imagen, que se imprime en la consola y se lee en voz alta.
 
